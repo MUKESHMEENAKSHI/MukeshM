@@ -14,7 +14,7 @@ public class Main {
             counts[i - 1] = count; 
         }
 
-        /
+        
         System.out.print("{");
         for (int i = 1; i <= 9; i++) {
             System.out.print(i + ": " + counts[i - 1]);
